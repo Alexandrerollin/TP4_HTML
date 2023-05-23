@@ -1,7 +1,27 @@
 /* Elements sélectors */
 
 * {
-    background-color: antiquewhite;
+    background-image: linear-gradient(to top,  #CCDAE0, #EDF2F4);
+  }
+
+  h1 {
+    color: #EF233C;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: impact;
+  }
+
+  h3 {
+    color: #2B2D42;
+    font-size: 2em;
+  }
+
+  article {
+    border: 1px solid black;
+  }
+
+  .img {
+    border: 2px solid #8D99AE;
   }
   
   nav {
