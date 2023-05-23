@@ -8,6 +8,74 @@
     <title>TP4_HTML</title>
 </head>
 <body>
+
+<header>
     
+<div id="logo">
+    <a href="index.html">
+        <img src="logo.png" alt="Ratatouille" title="Ratatouille" height="200px" width="800px">
+        </a>
+    </div>
+
+    <h1>TP4_HTML</h1>
+
+    <nav>  
+        <ul>
+          <li><a href="index.html">Accueil</a>
+          <li><a href="#blog">Blog</a>
+          <li><a href="">Gallerie</a>
+          <li><a href="contact.html">Contact</a>
+        </ul>
+      </nav>
+    </header>
+
+    <section>
+        <h1>Contactez-nous :</h1>
+        <fieldset>
+            <legend>Contactez-nous :</legend>
+        <form action="monprogramme.php" method="POST">
+
+            <div>
+                <label for="nom">Votre nom :</label>
+                <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" minlength="2" maxlength="20" required>
+            </div>
+
+            <div>
+                <label for="mail">Votre email:</label>
+                <input type="text" name="mail" id="mail" placeholder="Entrez votre email" required>
+            </div>
+
+            <div>
+                <label for="message">Laissez-nous un message :</label>
+                <br>
+                <textarea name="message" id="message" cols="70" rows="10" placeholder="Décrivez-nous votre souci le plus précisément possible."></textarea>
+            </div>
+
+            <div>
+                <label for="photo">Joindre une photo :</label>
+                <input type="file" name="photo" id="photo" accept=" .png, .jpg, .gif ">
+                <input type="checkbox" checked><label for="checkbox" >Ne fonctionne pas</label>
+            </div>
+
+            <div>
+                <input type="submit" value="Envoyer">
+                <input type="reset" value="Recommencer">
+            </div>
+
+                </form>
+        </fieldset>
+
+    </section>
+
+<footer>
+    <nav>  
+        <ul>
+          <li><a href="mentions.html">Mentions légales</a>
+          <li><a href="cgu.html">Conditions générales d'utilisations</a>
+          <li><a href="maman.html">A propos de ta maman</a>
+        </ul>
+      </nav>
+</footer>
+
 </body>
 </html>
