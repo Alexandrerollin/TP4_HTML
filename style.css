@@ -1,8 +1,13 @@
 /* Elements sélectors */
 
-* {
-    background-image: linear-gradient(to top,  #CCDAE0, #EDF2F4);
-  }
+body {
+    background: radial-gradient(at top center, #CCDAE0, #EDF2F4 );
+}
+
+
+/* * {
+    background: radial-gradient(at top,  #CCDAE0, #EDF2F4);
+  } */
 
   h1 {
     color: #EF233C;
@@ -37,9 +42,25 @@
       text-align: center;
   }
 
+  footer {
+    margin-left: 50%;
+  }
+
+  a:link {
+    color: #D90429;
+  }
+
+  a:visited {
+    color: grey;
+  }
+
+  a:hover {
+    color: #2B2D42;
+  }
+
 /* Class Sélectors */
+.required {
+    color: red;
+}
 
 /* ID Sélectors */
-
-#logo {
-}
