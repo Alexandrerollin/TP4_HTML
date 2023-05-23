@@ -1,0 +1,25 @@
+/* Elements sélectors */
+
+* {
+    background-color: antiquewhite;
+  }
+  
+  nav {
+      text-align: center;
+  }
+  
+  nav li {
+      display: inline-block;
+      margin: 2rem;
+  }
+  
+  body {
+      text-align: center;
+  }
+
+/* Class Sélectors */
+
+/* ID Sélectors */
+
+#logo {
+}
