@@ -11,16 +11,16 @@
 
 <header>
     
-<div id="logo">
+<div>
     <a href="index.html">
-        <img src="logo.png" alt="Ratatouille" title="Ratatouille" height="200px" width="800px">
+        <img src="logo.png" alt="Ratatouille" title="Ratatouille" id="logo">
         </a>
     </div>
 
     <h1>TP4_HTML</h1>
 
     <nav>  
-        <ul>
+        <ul class="puces">
           <li><a href="index.html">Accueil</a>
           <li><a href="#blog">Blog</a>
           <li><a href="">Gallerie</a>
@@ -37,12 +37,12 @@
 
             <div>
                 <label for="nom">Votre nom :</label>
-                <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" minlength="2" maxlength="20" required class="red">
+                <input type="text" name="nom" id="nom" placeholder="Entrez votre nom" minlength="2" maxlength="20" required>
             </div>
 
             <div>
                 <label for="mail">Votre email:</label>
-                <input type="text" name="mail" id="mail" placeholder="Entrez votre email" required class="red">
+                <input type="text" name="mail" id="mail" placeholder="Entrez votre email" required>
             </div>
 
             <div>
@@ -67,14 +67,12 @@
 
     </section>
 
-<footer>
-    <nav>  
-        <ul>
+<footer>  
+        <ul class="puces">
           <li><a href="mentions.html">Mentions légales</a>
           <li><a href="cgu.html">Conditions générales d'utilisations</a>
           <li><a href="maman.html">A propos de ta maman</a>
         </ul>
-      </nav>
 </footer>
 
 </body>
